@@ -134,7 +134,7 @@
 <option>Tyson</option>
 <option>TexPac</option>
 <option>Mixed</option>
-<option>Card Missing</option></select>
+</select>
 </div>
 <div>
 <label for="sortedBy">Sorted By</label>
@@ -149,11 +149,13 @@
 <div style="flex:1">
 <div class="section-title">Selection</div>
 <div id="selectionGrid"><button class="chip" data-grade="TR" data-selection="Extra Heavy TR" data-weight="Extra Heavy" onclick="selectSelection(this)"><span class="top">Extra Heavy</span><span class="bottom">TR</span></button><button class="chip" data-grade="3" data-selection="Extra Heavy 3" data-weight="Extra Heavy" onclick="selectSelection(this)"><span class="top">Extra Heavy</span><span class="bottom">3</span></button><button class="chip" data-grade="4" data-selection="Extra Heavy 4" data-weight="Extra Heavy" onclick="selectSelection(this)"><span class="top">Extra Heavy</span><span class="bottom">4</span></button><div class="chip spacer"></div><button class="chip" data-grade="TR" data-selection="Heavy TR" data-weight="Heavy" onclick="selectSelection(this)"><span class="top">Heavy</span><span class="bottom">TR</span></button><button class="chip" data-grade="3" data-selection="Heavy 3" data-weight="Heavy" onclick="selectSelection(this)"><span class="top">Heavy</span><span class="bottom">3</span></button><button class="chip" data-grade="4" data-selection="Heavy 4" data-weight="Heavy" onclick="selectSelection(this)"><span class="top">Heavy</span><span class="bottom">4</span></button><div class="chip spacer"></div><button class="chip" data-grade="TR" data-selection="Medium TR" data-weight="Medium" onclick="selectSelection(this)"><span class="top">Medium</span><span class="bottom">TR</span></button><button class="chip" data-grade="3" data-selection="Medium 3" data-weight="Medium" onclick="selectSelection(this)"><span class="top">Medium</span><span class="bottom">3</span></button><button class="chip" data-grade="4" data-selection="Medium 4" data-weight="Medium" onclick="selectSelection(this)"><span class="top">Medium</span><span class="bottom">4</span></button><button class="chip" data-grade="Clean Flesh" data-selection="Medium Clean Flesh" data-weight="Medium" onclick="selectSelection(this)"><span class="top">Medium</span><span class="bottom">Clean Flesh</span></button><button class="chip" data-grade="TR" data-selection="Light TR" data-weight="Light" onclick="selectSelection(this)"><span class="top">Light</span><span class="bottom">TR</span></button><button class="chip" data-grade="3" data-selection="Light 3" data-weight="Light" onclick="selectSelection(this)"><span class="top">Light</span><span class="bottom">3</span></button><button class="chip" data-grade="4" data-selection="Light 4" data-weight="Light" onclick="selectSelection(this)"><span class="top">Light</span><span class="bottom">4</span></button><button class="chip" data-grade="Clean Flesh" data-selection="Light Clean Flesh" data-weight="Light" onclick="selectSelection(this)"><span class="top">Light</span><span class="bottom">Clean Flesh</span></button><button class="chip" data-grade="Job Lot - Drum Dye" data-selection="Job Lot" data-weight="" onclick="selectSelection(this)"><span class="top">Job Lot</span><span class="bottom"></span></button><div class="chip spacer"></div><div class="chip spacer"></div><div class="chip spacer"></div></div>
-<div class="hint" style="margin-top:6px">Select one selection to enable Submit.</div>
+<div class="hint" style="margin-top:6px">Select one selection to enable Submit. Select up to 3 reasons.</div>
 </div>
 <div style="flex:1">
-<div class="section-title">Reason (from Skirting)</div>
-<div id="reasonChoices" style="display:grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap:12px;"><button class="chip single" data-value="Abraded Grain" onclick="toggleReason(this)" type="button">Abraded Grain</button><button class="chip single" data-value="Dirty Flesh" onclick="toggleReason(this)" type="button">Dirty Flesh</button><button class="chip single" data-value="Butcher Cut" onclick="toggleReason(this)" type="button">Butcher Cut</button><button class="chip single" data-value="Draw" onclick="toggleReason(this)" type="button">Draw</button><button class="chip single" data-value="Fat Wrinkle" onclick="toggleReason(this)" type="button">Fat Wrinkle</button><button class="chip single" data-value="Folds" onclick="toggleReason(this)" type="button">Folds</button><button class="chip single" data-value="Insects/Warts" onclick="toggleReason(this)" type="button">Insects/Warts</button><button class="chip single" data-value="Machine Damage" onclick="toggleReason(this)" type="button">Machine Damage</button><button class="chip single" data-value="Manure/Urine/Kidney" onclick="toggleReason(this)" type="button">Manure/Urine/Kidney</button><button class="chip single" data-value="Puller Damage" onclick="toggleReason(this)" type="button">Puller Damage</button><button class="chip single" data-value="Purple Stain" onclick="toggleReason(this)" type="button">Purple Stain</button><button class="chip single" data-value="Scud" onclick="toggleReason(this)" type="button">Scud</button><button class="chip single" data-value="Scuff" onclick="toggleReason(this)" type="button">Scuff</button><button class="chip single" data-value="White Streak" onclick="toggleReason(this)" type="button">White Streak</button></div>
+<div class="section-title">Reason</div>
+<div id="reasonChoices" style="display:grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap:12px;">
+<button class="chip single" data-value="Abraded Grain" onclick="toggleReason(this)" type="button">Abraded Grain</button><button class="chip single" data-value="Butcher Cut" onclick="toggleReason(this)" type="button">Butcher Cut</button><button class="chip single" data-value="Fat Wrinkle" onclick="toggleReason(this)" type="button">Fat Wrinkle</button><button class="chip single" data-value="Folds" onclick="toggleReason(this)" type="button">Folds</button><button class="chip single" data-value="Heavy Draw" onclick="toggleReason(this)" type="button">Heavy Draw</button><button class="chip single" data-value="Insect Damage" onclick="toggleReason(this)" type="button">Insect Damage</button><button class="chip single" data-value="Kidney Grease" onclick="toggleReason(this)" type="button">Kidney Grease</button><button class="chip single" data-value="Machine Damage" onclick="toggleReason(this)" type="button">Machine Damage</button><button class="chip single" data-value="Manure/Urine" onclick="toggleReason(this)" type="button">Manure/Urine</button><button class="chip single" data-value="Puller Damage" onclick="toggleReason(this)" type="button">Puller Damage</button><button class="chip single" data-value="Purple Stain" onclick="toggleReason(this)" type="button">Purple Stain</button><button class="chip single" data-value="Scud" onclick="toggleReason(this)" type="button">Scud</button><button class="chip single" data-value="Scuff" onclick="toggleReason(this)" type="button">Scuff</button><button class="chip single" data-value="White Streak" onclick="toggleReason(this)" type="button">White Streak</button>
+</div>
 </div>
 </div>
 <div class="row" style="margin-top:16px">
@@ -174,7 +176,7 @@
 <th>Sorted By</th>
 <th>Lot Number</th>
 <th>Selection</th><th>Color</th>
-<th>Reason</th>
+<th>Reason 1</th><th>Reason 2</th><th>Reason 3</th>
 <th>Timestamp</th>
 <th>Weight</th>
 <th>Grade</th>
@@ -194,8 +196,19 @@
   function toggleReason(btn){
     var chips = document.querySelectorAll('#reasonChoices .chip');
     var wasOn = btn.classList.contains('reason-selected');
-    for (var i=0;i<chips.length;i++){ chips[i].classList.remove('reason-selected'); }
-    if(!wasOn){ btn.classList.add('reason-selected'); }
+    var selectedCount = document.querySelectorAll('#reasonChoices .chip.reason-selected').length;
+    
+    if(wasOn){
+      // If clicking a selected reason, deselect it
+      btn.classList.remove('reason-selected');
+    } else {
+      // If trying to select a new reason, check if we're at the limit
+      if(selectedCount >= 3){
+        alert('Maximum of 3 reasons can be selected.');
+        return;
+      }
+      btn.classList.add('reason-selected');
+    }
   }
 </script>
 <script>
@@ -219,7 +232,10 @@
   const undoBtn = $('#undoBtn');
 
   function getSelectedSelection(){ return selectionGroup.querySelector('.chip.sel-selected'); }
-  function getSelectedReason(){ const el = reasonGroup.querySelector('.chip.reason-selected'); return el ? el.getAttribute('data-value') : ''; }
+  function getSelectedReasons(){ 
+    const selected = reasonGroup.querySelectorAll('.chip.reason-selected');
+    return Array.from(selected).map(el => el.getAttribute('data-value'));
+  }
 
   function readLog(){ try { return JSON.parse(localStorage.getItem(LS_KEY) || '[]'); } catch(e) { return []; } }
   function writeLog(data){ try { localStorage.setItem(LS_KEY, JSON.stringify(data)); } catch(e){} }
@@ -234,7 +250,9 @@
         '<td>'+escapeHtml(row.lot)+'</td>' +
         '<td>'+escapeHtml(row.selection)+'</td>' +
         '<td>'+escapeHtml(row.color||'')+'</td>' +
-        '<td>'+escapeHtml(row.reason)+'</td>' +
+        '<td>'+escapeHtml(row.reason1||'')+'</td>' +
+        '<td>'+escapeHtml(row.reason2||'')+'</td>' +
+        '<td>'+escapeHtml(row.reason3||'')+'</td>' +
         '<td>'+fmtDateTime(row.ts)+'</td>' +
         '<td>'+escapeHtml(row.weight)+'</td>' +
         '<td>'+escapeHtml(row.grade)+'</td>' +
@@ -252,7 +270,7 @@
     const sortedBy = (sortedByEl.value || '').trim();
     const lot = (lotEl.value || '').trim();
     const selBtn = getSelectedSelection();
-    const reason = getSelectedReason();
+    const reasons = getSelectedReasons();
     const color = (colorEl && colorEl.value) ? colorEl.value : '';
 
     if(!packer){ alert('Please choose a Packer.'); return; }
@@ -263,7 +281,19 @@
     const grade = selBtn.getAttribute('data-grade') || '';
     const selectionText = selBtn.getAttribute('data-selection') || '';
 
-    const entry = { packer, sortedBy, lot, selection: selectionText, color, reason, ts: new Date().toISOString(), weight, grade };
+    const entry = { 
+      packer, 
+      sortedBy, 
+      lot, 
+      selection: selectionText, 
+      color, 
+      reason1: reasons[0] || '', 
+      reason2: reasons[1] || '', 
+      reason3: reasons[2] || '', 
+      ts: new Date().toISOString(), 
+      weight, 
+      grade 
+    };
 
     const data = readLog(); data.push(entry); writeLog(data);
 
@@ -285,8 +315,20 @@
 
   exportBtn.addEventListener('click', function(){
     const data = readLog();
-    const header = ['Packer','Sorted By','Lot Number','Selection','Color','Reason','Timestamp','Weight','Grade'];
-    const rows = data.map(function(r){ return [r.packer, r.sortedBy, r.lot, r.selection, (r.color||''), r.reason, r.ts, r.weight, r.grade]; });
+    const header = ['Packer','Sorted By','Lot Number','Selection','Color','Reason 1','Reason 2','Reason 3','Timestamp','Weight','Grade'];
+    const rows = data.map(function(r){ 
+      // Format timestamp for Excel compatibility (MM/DD/YYYY HH:MM:SS AM/PM)
+      const timestamp = r.ts ? new Date(r.ts).toLocaleString('en-US', {
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit',
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit',
+        hour12: true
+      }) : '';
+      return [r.packer, r.sortedBy, r.lot, r.selection, (r.color||''), (r.reason1||''), (r.reason2||''), (r.reason3||''), timestamp, r.weight, r.grade]; 
+    });
     const csv = [header].concat(rows).map(function(cols){
       return cols.map(function(v){
         var s = String(v == null ? '' : v);
